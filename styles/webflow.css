@@ -98,10 +98,61 @@ main section{
 .section-2{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
-    padding: 50px;
+    padding: 50px 80px;
 }
 
 .user-quantity{
     font-weight: bold;
     font-size: 80px;
 }
+
+.user{
+    margin-top:10px;
+}
+
+
+/* প্রথম ও দ্বিতীয় লাইনের মাঝে 50px */
+.contant-title {
+  margin-bottom: 10px;
+}
+
+/* সংখ্যা (দ্বিতীয় লাইন) ও নাম (তৃতীয় লাইন) এর মাঝে 20px */
+.user-quantity {
+  margin-bottom: 10px;
+}
+
+
+.user-name{
+    margin-top: -20px;
+}
+    
+.user-quantity{
+    margin-top: 20px;
+}
+
+body{
+     background-color: #F5F8FF;
+    }
+
+    .section-3{
+       background-color: white;
+       padding: 71px 150px;
+       border-radius: 14px;
+    }
+
+    .section-3-btn{
+        margin-top: 40px;
+    margin-bottom: 25px;
+    }
+
+    .section-3-text{
+        text-align: center;
+    }
+
+    .section-3 .contant-title{
+        margin-top: 0;
+    }
+
+    .section-3-pic{
+        border-radius: 48px;
+    }
