@@ -156,3 +156,55 @@ body{
     .section-3-pic{
         border-radius: 48px;
     }
+
+
+    /* section 4 style */
+
+    .rating-user{
+        display: flex;
+        align-items: center;
+          
+    }
+
+    .rating-user-pic{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+
+    .review-container{
+        background-color: white;
+        border-radius: 14px;
+        padding: 24px;
+    }
+
+    .rating-user-identity{
+        margin-left: 15px;
+        
+    }
+
+    .name{
+        margin-bottom: -15px;
+    }
+
+    .rating-title{
+        color: rgba(30, 30, 30, 1);
+    }
+
+    .name{
+        color: rgba(117, 117, 117, 1);
+    }
+
+    .date{
+        color:rgba(179, 179, 179, 1) ;
+    }
+
+    .review-containers{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .section-4-title{
+        margin-bottom: 50px ;
+    }
